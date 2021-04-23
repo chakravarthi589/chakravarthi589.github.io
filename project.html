@@ -1,7 +1,7 @@
 <!DOCTYPE  html>
 <html>
 <head>
-<title>Bharatesh Chakravarthi</title>
+<title>Caja | Project</title>
 <meta charset="utf-8">
 <!-- CSS -->
 <link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
@@ -48,23 +48,45 @@
   <!-- wrapper-header -->
   <div class="wrapper">
     <!-- Social -->
-    
+    <ul class="social ">
+      <li><a href="#" class="poshytip  facebook" title="Facebook"></a></li>
+      <li><a href="#" class="poshytip twitter" title="Twitter"></a></li>
+      <li><a href="#" class="poshytip dribbble" title="Dribble"></a></li>
+      <li><a href="#" class="poshytip vimeo" title="Vimeo"></a></li>
+    </ul>
     <!-- ENDS Social -->
-    <a href="index.html"><img id="logo" src="img/BC.png" alt=""></a>
+    <a href="index.html"><img id="logo" src="img/logo.png" alt=""></a>
     <!-- headline -->
     <div id="headline">
-      
+      <div class="slides_container">
+        <div>I am Free Portfolio Template. <a href="#">Get Premium Version</a></div>
+        <div>I'm a beautiful crafted template designed for creatives to be used by creatives. My layout is perfect to showcase work and offer free files downloads. Come on, approach and discover me and my many color skins, you will be amazed! </div>
+        <div>More to say? Use as many paragraphs as you want to express yourself. Let them know what you got and what you can do! </div>
+      </div>
     </div>
     <!-- ENDS headline -->
     <!-- Navigation -->
     <ul id="nav" class="sf-menu">
-      <li class="current-menu-item"><a href="index.html">About</a></li>
-      <li><a href="tags.html">Skills</a></li>
-      <li><a href="page.html">Projects</a></li>
-      <li><a href="index.html">Publications</a>
+      <li class="current-menu-item"><a href="index.html">Work</a></li>
+      <li><a href="tags.html">Tag index</a></li>
+      <li><a href="page.html">Page</a>
+        <ul>
+          <li><a href="page.html">Page with sidebar</a></li>
+          <li><a href="full-width-page.html">Fullwidth page</a></li>
+        </ul>
       </li>
-      <li><a href="#">Downloads</a></li>
-      <li id="hire"><a href="#">Curriculum Vitae!</a></li>
+      <li><a href="index.html">Skins</a>
+        <ul>
+          <li><a href="javascript:changeSkin('')">Original</a></li>
+          <li><a href="javascript:changeSkin('orange')">Orange</a></li>
+          <li><a href="javascript:changeSkin('pink')">Pink</a></li>
+          <li><a href="javascript:changeSkin('dark-blue')">Dark/blue</a></li>
+          <li><a href="javascript:changeSkin('brown')">Brown</a></li>
+          <li><a href="javascript:changeSkin('green')">Green</a></li>
+        </ul>
+      </li>
+      <li><a href="#">Download</a></li>
+      <li id="hire"><a href="#">Hire me!</a></li>
     </ul>
     <!-- Navigation -->
   </div>
@@ -77,14 +99,15 @@
   <!-- wrapper-main -->
   <div class="wrapper">
     <!-- filter -->
-   <ul class="tags">
-      <li><span>Links</span></li>
-      <li><a href="https://scholar.google.co.kr/citations?user=-aR9N7UAAAAJ&hl=en">Google Scholar</a></li>
-      <li><a href="https://github.com/chakravarthi589"> Github</a></li>
-      <li><a href="https://orcid.org/0000-0002-4978-434X">ORCID</a></li>
-      <li><a href="https://publons.com/researcher/4297681/bharatesh-chakravarthi/">Publons</a></li>
-      <li><a href="https://kr.linkedin.com/in/bharatesh-chakravarthi-67459171">linkedin</a></li>
-
+    <ul class="tags">
+      <li><span>Categories</span></li>
+      <li><a href="#">All</a></li>
+      <li class="active"><a href="#"> Photography</a></li>
+      <li><a href="#">Logo</a></li>
+      <li><a href="#">Webdesign</a></li>
+      <li><a href="#">Marketing</a></li>
+      <li><a href="#">Gaming</a></li>
+      <li><a href="#">Coding</a></li>
     </ul>
     <!-- ENDS filter -->
     <!-- search -->
@@ -249,14 +272,48 @@
   <!-- wrapper-footer -->
   <div class="wrapper">
     <!-- title -->
-    
+    <div class="title"> <span class="big">Hire me!</span> <span class="small"> I am available for freelance</span>
+      <div  class="to-top poshytip">to top</div>
+    </div>
     <!-- Ends title -->
     <!-- left col -->
-    
+    <div class="footer-left">
+      <h6 class="p-title">Some history</h6>
+      <p>Once upon a time pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+      <p>Et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris eleifend leo. <a href="#">Learn more</a></p>
+      <h6 class="p-title">Skills</h6>
+      <ul class="skills">
+        <li class="stars-5"><span>HTML 5 &amp; XHTML</span></li>
+        <li class="stars-4"><span>CSS &amp; CSS3</span></li>
+        <li class="stars-3"><span>JAVASCRIPT</span></li>
+        <li class="stars-2"><span>PHP</span></li>
+        <li class="stars-1"><span>SQL</span></li>
+        <li class="stars-0"><span>DANCE</span></li>
+      </ul>
+    </div>
     <!-- ENDS left col -->
     <!-- right col -->
     <div class="footer-right">
       <h6 class="p-title">Contact me</h6>
+      <p>Want to hire me or just say hello? Use the form below to get in touch. Dont be shy!</p>
+      <!-- form -->
+      <form id="contactForm" action="#" method="post">
+        <fieldset>
+          <div>
+            <input name="name"  id="name" type="text" class="form-poshytip" value="Name" onFocus="defaultInput(this,'Name')" onBlur="clearInput(this,'Name')" title="Name">
+          </div>
+          <div>
+            <input name="email"  id="email" type="text" class="form-poshytip" value="Email" onFocus="defaultInput(this,'Email')" onBlur="clearInput(this,'Email')" title="Email">
+          </div>
+          <div>
+            <textarea  name="comments"  id="comments" rows="5" cols="20" class="form-poshytip" onFocus="defaultInput(this,'How can i help you?')" onBlur="clearInput(this,'How can i help you?')" title="How can i help you?">How can i help you?</textarea>
+          </div>
+          <p>
+            <input type="button" value="Send" name="submit" id="submit">
+          </p>
+        </fieldset>
+      </form>
+      <p id="success" class="success">Thanks for your comments.</p>
       <!-- ENDS form -->
     </div>
     <div class="clear"></div>
@@ -269,7 +326,7 @@
 <div id="bottom">
   <!-- wrapper-bottom -->
   <div class="wrapper">
-      <div id="bottom-text">&copy; Copyright 2021 <a href="#">| Bharatesh Chakravarthi |</a> All Rights Reserved | </div>
+    <div id="bottom-text">&copy; Copyright 2012 <a href="#">Company Name</a> All Rights Reserved | Website Template By <a target="_blank" href="http://www.luiszuno.com">luiszuno</a> </div>
     <div  class="to-top poshytip">to top</div>
   </div>
   <!-- ENDS wrapper-bottom -->
