@@ -2,10 +2,10 @@
    -------------- */
 *{ margin: 0; padding: 0; }* 
 body { 
-	font: .9em Arial, "Trebuchet MS", Tahoma, sans-serif; 
+	font: .8em Arial, "Trebuchet MS", Tahoma, sans-serif; 
 	line-height: 1.6em;
 	background: #FFF; 
-	color: blue; 
+	color: #444; 
 	/*#444*/
 }
 
