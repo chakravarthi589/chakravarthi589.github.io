@@ -176,7 +176,7 @@ ul { list-style : none; }
 }
 	.right h3 {
 		background: #BDBDBD  url(images/h3bg.gif) no-repeat center right;
-		color: #FFF;
+		color: #000000;
 		padding: 8px 0 8px 5px;
 		font: bold 1em Tahoma, Arial, Sans-Serif;
 		margin: 0 0 3px 0;
