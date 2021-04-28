@@ -1,9 +1,3 @@
-/* 
-
-	project: internet services - 2nd edition
-	author: luka cvrk (www.solucija.com) */
-
-   
 /* default styles
    -------------- */
 *{ margin: 0; padding: 0; }* 
@@ -39,7 +33,7 @@ ul { list-style : none; }
 }
 
 .header { 
-	height: 70px;
+	height: 50px;
 	background: #fff url(images/headerbg.gif) repeat-x bottom;
 	color: #808080;
 	margin: 3px 0;
@@ -61,6 +55,7 @@ ul { list-style : none; }
 	.top_info_right {
 		float: right;
 		width: 290px;
+		font-size: 1.1em;
 		padding: 0 0 0 35px;
 		border-left: 1px solid #eee;
 	}
@@ -81,20 +76,20 @@ ul { list-style : none; }
 
 	.bar li { 
 		padding: 6px 12px 6px 12px;
-		color: #FFEADC;
+		color: #000000;
 		float: left; 
 	}
 	
 	.bar li.active { 
 		background: #E0691A url(images/bar.gif) repeat-x; 
-		color: #fff;
+		color: #000000;
 		font-weight: bold; 
 		
 	}
 	
 	.bar li a { 
 		font-weight: bold;
-		color: #FFF; 
+		color: #000000; 
 		background: inherit;
 		text-decoration: none;
 	} 
@@ -123,7 +118,7 @@ ul { list-style : none; }
 		padding: 4px 0;
 		width: 65px;
 		margin: 0 10px 1px 0;
-		color: #FFF;
+		color: #000000;
 		font: bold 1em Arial, Sans-Serif;
 	}
 	.grey { color: #808080; background: inherit; font-weight: normal; }
