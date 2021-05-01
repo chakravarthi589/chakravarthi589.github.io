@@ -21,7 +21,7 @@ h1 a:hover, h2 a:hover { color: #FF6600; background: inherit; }
 h2 { font-size: 1.5em; margin-bottom: 5px; color: #000; background: inherit; }
 p {	margin: 0 0 5px 0; }
 
-ul { list-style : none; }
+ul { list-style : none;}
 
 /* layout
    ------ */
