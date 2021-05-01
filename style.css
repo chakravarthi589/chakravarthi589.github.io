@@ -25,7 +25,6 @@ ul { list-style : none; }
 
 /* layout
    ------ */
-
 .content { 
 	margin: 0 auto;
 	width: 980px;
@@ -73,7 +72,6 @@ ul { list-style : none; }
 	color: #FFF;
 	background: #FF9148 url(images/menubg.gif) repeat-x;
 }
-
 	.bar li { 
 		padding: 6px 12px 6px 12px;
 		color: #000000;
