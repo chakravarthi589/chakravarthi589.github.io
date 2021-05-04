@@ -7,7 +7,7 @@ body {
 	background: #fff; 
 	color: #444; 
 }
-/* a {	color: #E0691A;	background: inherit;}*/
+a {	color: #E0691A;	background: inherit;}
 a:hover { color: #6C757A; background: inherit; }
 
 h1 { font: normal 2.4em "Trebuchet MS", Arial, Sans-Serif; padding: 7px 0 0 8px; margin: 0; }
