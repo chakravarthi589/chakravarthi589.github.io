@@ -1102,14 +1102,15 @@ a#logo {
 	border-color:#cec596;
 	border-style:solid none;
 	border-width:2px;
-	height:198px;
+	height:50px;
 	margin:16px 0 0;
 	overflow:hidden;
 	padding:1px;
 }
 .footer div div:first-child {
 	margin:0;
-	width:420px;
+	width:914px;
+	
 }
 .footer div div:first-child h4 {
 	margin:0;
