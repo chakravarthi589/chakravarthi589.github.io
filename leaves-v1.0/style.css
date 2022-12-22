@@ -128,6 +128,17 @@ CSS Document For Leaves v1.0 - Anthonyy @ OSWD.org
 			border-bottom: 1px solid #DDDDDD; /* A faint grey line below the text */
 		}
 
+		#otherContent {
+			width: 562px;
+			margin-left: 180px;
+			margin-right: 200px;
+		}
+		
+		#otherContent p {
+			padding-bottom: 10px;
+			border-bottom: 1px solid #DDDDDD; /* A faint grey line below the text */
+		}
+		
 /* SIDEBAR ELEMENTS */
 
 		#sidebar {
@@ -145,7 +156,7 @@ CSS Document For Leaves v1.0 - Anthonyy @ OSWD.org
 		#footer {
 			margin-top: 20px;
 			clear: both;
-			background-color:#575352;
+			background-color:#2F4F4F;
 			padding: 0px 5px 0px 5px;
 		}
 		
@@ -162,6 +173,12 @@ CSS Document For Leaves v1.0 - Anthonyy @ OSWD.org
 		#footer p a:hover {
 			color: #FFFFFF;
 			background-color:#575352;
+			
 		}
 		
 		/* And they lived happily ever after. The End. */
+		
+		.center {
+					text-align: justify;
+					list-style-position: inside;
+				}
