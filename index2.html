@@ -1,10 +1,11 @@
 <!DOCTYPE HTML>
 <html lang="en">
 <head>
-<title>Caprice | Contact</title>
+<title>Caprice | Home 2</title>
 <meta charset="UTF-8">
 <link rel="shortcut icon" type="image/x-icon" href="style/images/favicon.png">
 <link rel="stylesheet" type="text/css" href="style/css/style.css" media="all">
+<link rel="stylesheet" type="text/css" media="screen" href="style/css/prettyPhoto.css">
 <link href='http://fonts.googleapis.com/css?family=Amaranth' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Droid+Serif:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
 <!--[if IE 7]>
@@ -82,49 +83,92 @@
     </div>
   </div>
   <div id="content">
-    <h1 class="title">Get in Touch</h1>
+    <h1 class="title">Welcome</h1>
     <div class="line"></div>
     <div class="intro">Nullam id dolor id nibh ultricies vehicula ut id elit. Etiam porta sem malesuada magna mollis euismod. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.</div>
-    <div class="map">
-      <iframe width="700" height="300" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/?ie=UTF8&amp;ll=40.959289,29.082184&amp;spn=0.012963,0.022659&amp;z=14&amp;output=embed"></iframe>
+    <div id="slider">
+      <div class="flexslider">
+        <ul class="slides">
+          <li><img src="style/images/art/slide1.jpg" alt=""></li>
+          <li><img src="style/images/art/slide2.jpg" alt=""></li>
+          <li><img src="style/images/art/slide3.jpg" alt=""></li>
+          <li><img src="style/images/art/slide4.jpg" alt=""></li>
+        </ul>
+      </div>
     </div>
-    <br>
-    <br>
     <h3>Ipsum Tortor Vestibulum Sollicitudin</h3>
     <p>Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed posuere consectetur est at lobortis. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
-    <br>
-    <div class="form-container">
-      <form class="forms" action="#" method="post">
-        <fieldset>
-          <ol>
-            <li class="form-row text-input-row">
-              <label>Name</label>
-              <input type="text" name="name" value="" class="text-input required">
-            </li>
-            <li class="form-row text-input-row">
-              <label>Email</label>
-              <input type="text" name="email" value="" class="text-input required email">
-            </li>
-            <li class="form-row text-input-row">
-              <label>Subject</label>
-              <input type="text" name="subject" value="" class="text-input required">
-            </li>
-            <li class="form-row text-area-row">
-              <label>Message</label>
-              <textarea name="message" class="text-area required"></textarea>
-            </li>
-            <li class="form-row hidden-row">
-              <input type="hidden" name="hidden" value="">
-            </li>
-            <li class="button-row">
-              <input type="submit" value="Submit" name="submit" class="btn-submit">
-            </li>
-          </ol>
-          <input type="hidden" name="v_error" id="v-error" value="Required">
-          <input type="hidden" name="v_email" id="v-email" value="Enter a valid email">
-        </fieldset>
-      </form>
-      <div class="response"></div>
+    <div id="portfolio">
+      <ul id="filtering-nav">
+        <li class="show">Filter:</li>
+        <li><a class="all" href="#all">All</a></li>
+        <li><a class="web" href="#web">Web</a></li>
+        <li><a class="photo" href="#photo">Photo</a></li>
+        <li><a class="graphic" href="#graphic">Graphic</a></li>
+      </ul>
+      <div class="clear"></div>
+      <div class="items">
+        <div class="box col3 web">
+          <div class="image"> <a href="style/images/art/p1-full.jpg" rel="prettyPhoto" title="Caption"><span class="overlay zoom"></span><img src="style/images/art/p2-1.jpg" alt=""></a> </div>
+          <h4><a href="#">Vestibulum Tellus</a></h4>
+          <p>Cum sociis natoque penatibus et magnis dis parturient montes.</p>
+        </div>
+        <div class="box col3 photo">
+          <div class="image"> <a href="style/images/art/p2-full.jpg" rel="prettyPhoto" title="Caption"><span class="overlay zoom"></span><img src="style/images/art/p2-2.jpg" alt=""></a> </div>
+          <h4><a href="#">Malesuada Magna</a></h4>
+          <p>Nullam quis risus eget urna mollis ornare vel eu leo.</p>
+        </div>
+        <div class="box col3 graphic">
+          <div class="image"> <a href="style/images/art/p3-full.jpg" rel="prettyPhoto" title="Caption"><span class="overlay zoom"></span><img src="style/images/art/p2-3.jpg" alt=""></a> </div>
+          <h4><a href="#">Egestas Risus</a></h4>
+          <p>Integer posuere erat a ante venenatis dapibus posuere velit aliquet.</p>
+        </div>
+        <div class="box col3 web">
+          <div class="image"> <a href="style/images/art/p4-full.jpg" rel="prettyPhoto" title="Caption"><span class="overlay zoom"></span><img src="style/images/art/p2-4.jpg" alt=""></a> </div>
+          <h4><a href="#">Bibendum Ullamcorper</a></h4>
+          <p>Aenean eu leo quam. Pellentesque ornare sem lacinia vestibulum.</p>
+        </div>
+        <div class="box col3 graphic">
+          <div class="image"> <a href="style/images/art/p5-full.jpg" rel="prettyPhoto" title="Caption"><span class="overlay zoom"></span><img src="style/images/art/p2-5.jpg" alt=""></a> </div>
+          <h4><a href="#">Commodo Bibendum</a></h4>
+          <p>Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
+        </div>
+        <div class="box col3 photo">
+          <div class="image"> <a href="style/images/art/p6-full.jpg" rel="prettyPhoto" title="Caption"><span class="overlay zoom"></span><img src="style/images/art/p2-6.jpg" alt=""></a> </div>
+          <h4><a href="#">Sollicitudin Lorem</a></h4>
+          <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula.</p>
+        </div>
+        <div class="box col3 photo">
+          <div class="image"> <a href="style/images/art/p7-full.jpg" rel="prettyPhoto" title="Caption"><span class="overlay zoom"></span><img src="style/images/art/p2-7.jpg" alt=""></a> </div>
+          <h4><a href="#">Cursus Mattis</a></h4>
+          <p>Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
+        </div>
+        <div class="box col3 web">
+          <div class="image"> <a href="style/images/art/p8-full.jpg" rel="prettyPhoto" title="Caption"><span class="overlay zoom"></span><img src="style/images/art/p2-8.jpg" alt=""></a> </div>
+          <h4><a href="#">Sit Porta Purus</a></h4>
+          <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
+        </div>
+        <div class="box col3 web">
+          <div class="image"> <a href="style/images/art/p9-full.jpg" rel="prettyPhoto" title="Caption"><span class="overlay zoom"></span><img src="style/images/art/p2-9.jpg" alt=""></a> </div>
+          <h4><a href="#">Fermentum Porta</a></h4>
+          <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</p>
+        </div>
+        <div class="box col3 photo">
+          <div class="image"> <a href="style/images/art/p10-full.jpg" rel="prettyPhoto" title="Caption"><span class="overlay zoom"></span><img src="style/images/art/p2-10.jpg" alt=""></a> </div>
+          <h4><a href="#">Risus Venenatis</a></h4>
+          <p>Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis.</p>
+        </div>
+        <div class="box col3 graphic">
+          <div class="image"> <a href="style/images/art/p11-full.jpg" rel="prettyPhoto" title="Caption"><span class="overlay zoom"></span><img src="style/images/art/p2-11.jpg" alt=""></a> </div>
+          <h4><a href="#">Nullam Commodo</a></h4>
+          <p>Fusce dapibus, tellus ac cursus commodo, mauris condimentum.</p>
+        </div>
+        <div class="box col3 web">
+          <div class="image"> <a href="style/images/art/p12-full.jpg" rel="prettyPhoto" title="Caption"><span class="overlay zoom"></span><img src="style/images/art/p2-12.jpg" alt=""></a> </div>
+          <h4><a href="#">Vestibulum Tellus</a></h4>
+          <p>Donec ullamcorper nulla non metus auctor fringilla.</p>
+        </div>
+      </div>
     </div>
     <div id="footer">
       <div class="footer-box one-third">
