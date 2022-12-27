@@ -50,13 +50,13 @@ input.button {
 
 h1, h2, h3 {
 	margin-top: 1.5em;
-	font-family: Georgia, "Times New Roman", Times, serif;
-	color: #626456;
+	font-family: Helvetica, Georgia, "Times New Roman", Times, serif;
+	color: #000000;
 }
 
 h1 {
 	letter-spacing: -.075em;
-	font-size: 3em;
+	font-size: 2.5em;
 }
 
 h2 {
