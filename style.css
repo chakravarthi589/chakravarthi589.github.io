@@ -76,6 +76,8 @@ p, ul, ol {
 	margin-top: 0.75em;
 	line-height: 1.8em;
 	font-size: 1.1em;
+	font-family: sans-serif;
+	color: #000000;
 }
 
 ul, ol {
