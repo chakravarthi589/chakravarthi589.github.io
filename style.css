@@ -144,7 +144,7 @@ hr {
 #menu a {
 	display: block;
 	float: left;
-	height: 22px;
+	height: 25px;
 	margin-right: 1px;
 	padding: 10px 30px 5px 10px;
 	background: #E9EED0;
@@ -187,7 +187,7 @@ hr {
 #logo {
 	width: 920px;
 	margin: 0 auto;
-	height: 90px;
+	height: 40px;
 	background: #FFFFFF url(images/img02.gif) repeat-x left bottom;
 	border: 1px solid #B8D03B;
 }
