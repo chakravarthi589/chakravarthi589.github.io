@@ -121,7 +121,7 @@ hr {
 /* Header */
 
 #header {
-	width: 980px;
+	width: 920px;
 	height: 35px;
 	margin: 0 auto;
 }
@@ -185,7 +185,7 @@ hr {
 /* Logo */
 
 #logo {
-	width: 978px;
+	width: 920px;
 	margin: 0 auto;
 	height: 122px;
 	background: #FFFFFF url(images/img02.gif) repeat-x left bottom;
@@ -220,7 +220,7 @@ hr {
 /* Page */
 
 #page {
-	width: 978px;
+	width: 920px;
 	margin: 0 auto;
 	padding: 20px 0;
 	background: #FFFFFF;
@@ -232,7 +232,7 @@ hr {
 
 #content {
 	float: left;
-	width: 720px;
+	width: 700px;
 	padding: 0 24px 0 21px;
 }
 
@@ -328,7 +328,7 @@ hr {
 }
 
 #sidebar2 {
-	width: 180px;
+	width: 160px;
 	padding: 25px 0 0 11px;
 }
 
