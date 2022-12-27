@@ -73,13 +73,13 @@ h3 {
 }
 
 p, ul, ol {
-	margin-top: 1.5em;
+	margin-top: 0.75em;
 	line-height: 1.8em;
 	font-size: 1.1em;
 }
 
 ul, ol {
-	margin-left: 3em;
+	margin-left: 2em;
 }
 
 blockquote {
@@ -249,7 +249,7 @@ h1 a:hover, h2 a:hover, h3 a:hover {
 }
 
 .post .entry {
-	padding-bottom: 30px;
+	padding-bottom: 15px;
 }
 
 .post .meta {
