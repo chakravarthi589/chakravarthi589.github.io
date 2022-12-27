@@ -122,7 +122,7 @@ hr {
 
 #header {
 	width: 920px;
-	height: 35px;
+	height: 30px;
 	margin: 0 auto;
 }
 
@@ -144,7 +144,7 @@ hr {
 #menu a {
 	display: block;
 	float: left;
-	height: 25px;
+	height: 22px;
 	margin-right: 1px;
 	padding: 10px 30px 5px 10px;
 	background: #E9EED0;
