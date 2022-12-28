@@ -255,6 +255,11 @@ h1 a:hover, h2 a:hover, h3 a:hover {
 	padding: 0 24px 0 21px;
 }
 
+#content h2{
+		font-size: 1.3em;
+}
+
+
 .post {
 }
 
