@@ -49,9 +49,10 @@ input.button {
 }
 
 h1, h2, h3 {
-	margin-top: 1.5em;
+	margin-top: 0em;
 	font-family: sans-serif;
 	color: #000000;
+	
 }
 
 h1 {
@@ -61,7 +62,7 @@ h1 {
 
 h2 {
 	letter-spacing: -.025em;
-	font-size: 1.45em;
+	font-size: 1.25em;
 	font-weight: bold;
 	color: #000000;
 }
@@ -73,6 +74,12 @@ h3 {
 	
 }
 
+h5 {
+	font-height: -2em;
+	line-height: -1em;
+	margin-top: -2em;
+	margin-bottom: -2em;
+}
 p, ul, ol {
 	margin-top: 0.75em;
 	line-height: 1.8em;
