@@ -63,7 +63,7 @@ h2 {
 	letter-spacing: -.025em;
 	font-size: 1.15em;
 	font-weight: bold;
-	color: #000000;
+	color: #000080;
 	
 }
 
@@ -73,10 +73,12 @@ h3 {
 	font-weight: bold;
 	margin-top: -0.75em;
 	margin-bottom: 0.50em;
+	color: #000080;
 }
 h4 {
 	font-size: 0.9em;
 	font-weight: 600;
+	color: #284A98;
 
 }
 h5 {
