@@ -60,7 +60,7 @@ h1 {
 }
 
 h2 {
-	letter-spacing: -.05em;
+	letter-spacing: -.025em;
 	font-size: 1.45em;
 	font-weight: bold;
 	color: #000000;
@@ -70,6 +70,7 @@ h3 {
 	font-size: 1.5em;
 	color: #000000;
 	font-weight: bold
+	
 }
 
 p, ul, ol {
