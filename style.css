@@ -69,13 +69,14 @@ h2 {
 h3 {
 	font-size: 1.5em;
 	color: #000000;
-	font-weight: bold
+	font-weight: bold;
 	
 }
 
 h5 {
 	margin-top: -1.5em;
 	line-height: 1.25em;
+	font-weight: normal;
 	
 }
 
