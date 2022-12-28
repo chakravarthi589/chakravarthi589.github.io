@@ -424,3 +424,28 @@ h1 a:hover, h2 a:hover, h3 a:hover {
 	text-align: center;
 	font-size: .8em;
 }
+
+
+table 
+{
+	font-family: arial, sans-serif;
+	border-collapse: collapse;
+	align:center;
+	width:95%;
+}
+th 
+{
+	border: 1px solid #dddddd;
+	text-align: center;
+	padding: 8px;
+}
+td
+{
+	border: 1px solid #dddddd;
+	text-align: left;
+	padding: 8px;
+}
+tr:nth-child(odd) 
+{
+	background-color: #dddddd;
+}
