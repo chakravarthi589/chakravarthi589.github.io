@@ -61,9 +61,9 @@ h1 {
 
 h2 {
 	letter-spacing: -.05em;
-	font-size: 1.8em;
-	font-weight: normal;
-	color: #8D8E85;
+	font-size: 1.45em;
+	font-weight: bold;
+	color: #000000;
 }
 
 h3 {
@@ -207,6 +207,7 @@ h1 a:hover, h2 a:hover, h3 a:hover {
 #logo h2 {
 	padding: 45px 0 0 0;
 	font-style: italic;
+	
 }
 
 #logo p {
