@@ -74,7 +74,11 @@ h3 {
 	margin-top: -0.75em;
 	margin-bottom: 0.50em;
 }
+h4 {
+	font-size: 0.9em;
+	font-weight: 600;
 
+}
 h5 {
 	font-size: 0.90em;
 	margin-top: -1.30em;
