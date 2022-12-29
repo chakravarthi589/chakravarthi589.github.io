@@ -445,6 +445,7 @@ td
 	text-align: left;
 	padding: 8px;
 	color: #000000;
+	font-size: 1em;
 }
 tr:nth-child(odd) 
 {
