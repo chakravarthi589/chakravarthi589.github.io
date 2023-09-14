@@ -1263,3 +1263,12 @@ a#logo {
 	margin:11px 0 20px;
 	text-align:center;
 }
+@keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+.blink {
+    animation: blink 1s linear infinite;
+}
