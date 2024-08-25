@@ -5,7 +5,84 @@
 		<title>Chakravarthi</title>
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 		<link href="style.css" rel="stylesheet" type="text/css" media="screen" />
-		
+		<style>
+			/* Slideshow container */
+			.slideshow-container {
+				max-width: 80%;
+				position: relative;
+				margin: auto;
+				overflow: hidden; /* Hide any overflow from images */
+			}
+
+			/* Hide the images by default */
+			.mySlides {
+				display: none;
+			}
+
+			/* Style the images */
+			.mySlides img {
+				width: 100%; /* Make the image width 100% of the container */
+				height: auto; /* Keep the aspect ratio */
+				max-height: 400px; /* Set a maximum height for the images */
+				object-fit: cover; /* Ensure the image covers the container */
+			}
+
+			/* Style the dots */
+			.dot {
+				height: 15px;
+				width: 15px;
+				margin: 0 2px;
+				background-color: #bbb;
+				border-radius: 50%;
+				display: inline-block;
+				transition: background-color 0.6s ease;
+			}
+
+			.active {
+				background-color: #717171;
+			}
+
+			/* Fading animation */
+			.fade {
+				animation-name: fade;
+				animation-duration: 1.5s;
+			}
+
+			@keyframes fade {
+				from {
+					opacity: 0.4;
+				}
+				to {
+					opacity: 1;
+				}
+			}
+
+			/* Next & previous buttons */
+			.prev, .next {
+				cursor: pointer;
+				position: absolute;
+				top: 50%;
+				width: auto;
+				margin-top: -22px;
+				padding: 16px;
+				color: white;
+				font-weight: bold;
+				font-size: 18px;
+				transition: 0.6s ease;
+				border-radius: 0 3px 3px 0;
+				user-select: none;
+				background-color: rgba(198, 198, 198, 0.7); /* Always display the background color */
+			}
+
+			.next {
+				right: 0;
+				border-radius: 3px 0 0 3px;
+			}
+
+			.prev:hover, .next:hover {
+				background-color: rgba(0, 0, 0, 0.8); /* Background color stays consistent */
+			}
+		</style>
 	</head>
 
 	<body>
@@ -103,10 +180,7 @@
 			</ul>
 			
 		</div>
-		
-		<style>
-			.mySlides {display:none;}
-		</style>
+
   
 		<div id="content">
 			<div class="post">
@@ -115,30 +189,93 @@
 				<div class="entry">
 					<p align="justify">
 					<hr/> <br/>
-					<h3 style="color:Navy;">3D Human Motion Authoring and Editing</h3>
 					<center>
-								<video width="400" controls align="center">
+					<h3 style="color:Navy;">Photo Gallery</h3>
+					
+								<!--<video width="400" controls align="center">
 									  <source src="/blog/videos/IEEE_Access_Feb2022.mp4" type="video/mp4">
 									  
 									  
-								</video>
+								</video>-->
 								</center>
-					<p>
+							<!--<p>
 										A simplistic comprehensive application system to effortlessly author, edit, and validate human motion data. 
 										The system enables a naive user to interactively edit existing motion data using a humanoid model in a 3D
 										space based on user-defined scenarios and synthesize numerous variations of motion sequences.
 											
-							</p>		
+							</p>-->		
 
 					</p>					
 				</div>
-				<hr style="width:100%;text-align:justify;margin-left:50;">
-				<br/>
+				
 	  
-			
+				<!-- Image Gallery Slideshow -->
+                    <div class="slideshow-container">
+                        <div class="mySlides fade">
+                            <img src="images/ASU.png" style="width:100%">
+                        </div>
+
+                        <div class="mySlides fade">
+                            <img src="images/MDPI_Banner.png" style="width:100%">
+                        </div>
+
+                        <div class="mySlides fade">
+                            <img src="images/ASU.png" style="width:100%">
+                        </div>
+
+                        <!-- Next and previous buttons -->
+                        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                    </div>
+                    <br>
+
+                    <!-- Dots to indicate current slide -->
+                    <div style="text-align:center">
+                        <span class="dot" onclick="currentSlide(1)"></span>
+                        <span class="dot" onclick="currentSlide(2)"></span>
+                        <span class="dot" onclick="currentSlide(3)"></span>
+                    </div>
+                    <!-- End Image Gallery -->
+					<hr style="width:100%;text-align:justify;margin-left:50;">
+				<br/>
 
 			</div>
 		</div>
+  
+		 <script>
+        let slideIndex = 1;
+        showSlides(slideIndex);
+
+        // Next/previous controls
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+        }
+
+        // Thumbnail image controls
+        function currentSlide(n) {
+            showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+            let i;
+            let slides = document.getElementsByClassName("mySlides");
+            let dots = document.getElementsByClassName("dot");
+            if (n > slides.length) {
+                slideIndex = 1
+            }
+            if (n < 1) {
+                slideIndex = slides.length
+            }
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+        }
+    </script>
   
 
   
@@ -148,7 +285,7 @@
 		
 		<div id="footer">
 			<center> 
-					<p class="links">| <b> Last Update:</b> 24th August 2024 | 
+					<p class="links">| <b> Last Update:</b> 21st August 2024 | 
 						<!--<script type="text/javascript" src="//counter.websiteout.net/js/17/5/0/0"></script>-->
 					</p>
 				</center>
